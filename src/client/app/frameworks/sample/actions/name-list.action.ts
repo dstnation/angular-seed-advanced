@@ -19,11 +19,11 @@ export interface INameListActions {
 }
 
 export const ActionTypes: INameListActions = {
-  INIT:        type(`${CATEGORY} Init`),
+  INIT: type(`${CATEGORY} Init`),
   INITIALIZED: type(`${CATEGORY} Initialized`),
   INIT_FAILED: type(`${CATEGORY} Init Failed`),
-  ADD:         type(`${CATEGORY} Add`),
-  NAME_ADDED:  type(`${CATEGORY} Name Added`)
+  ADD: type(`${CATEGORY} Add`),
+  NAME_ADDED: type(`${CATEGORY} Name Added`)
 };
 
 /**
@@ -52,7 +52,10 @@ export class InitFailedAction implements Action {
 export class AddAction implements Action {
   type = ActionTypes.ADD;
 
-  constructor(public payload: string) { }
+  constructor(public payload: string) {
+
+    console.log(payload);
+  }
 }
 
 export class NameAddedAction implements Action {

@@ -1,0 +1,11 @@
+{
+  "HOME": "홈",
+  "ABOUT": "About",
+  "HELLO": "안녕하세요",
+  "LOVE_TECH": "I love technology!",
+  "ABOUT_ADD": "You want more? Add them yourself!",
+  "ABOUT_REWARD": "For reward, here is a list of awesome computer scientists:",
+  "INPUT_HINT": "Enter a new computer scientist...",
+  "ADD_BTN_TEXT": "추가",
+  "SUCCESS_MSG": "Your deployment of Angular Seed Advanced worked perfectly."
+}
